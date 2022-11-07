@@ -4,6 +4,10 @@
 ![linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
 
+<p align="center">
+  <img src="./assets/book_cover.jpg" alt="The C Programming Language book cover"/>
+</p>
+
 ## Introduction
 
 **The C Programming Language** is a very popular book and sometimes people
@@ -23,7 +27,7 @@ of the book. These solutions are meant to be helpful for those who want to
 ## Instructions to follow along
 
 Make sure you have a C compiler installed. There are many popular ones out
-there like gnu or clang.
+there like `gnu` or `clang`.
 
 ```sh
 # clone this repository
