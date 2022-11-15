@@ -24,7 +24,8 @@ int main() {
 
 int get_line(char line[], int limit) {
     int c, i = 0;
-    while ((c = getchar()) != EOF && c != '\n' && limit != 0) {
+    // limit - 1 because last character is reserved for '\0' 
+    while ((c = getchar()) != EOF && c != '\n' && (limit - 1) > 0) {
         line[i] = c;
         --limit;
         ++i;
