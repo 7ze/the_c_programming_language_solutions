@@ -1,3 +1,5 @@
+// program that reverses its input a line at a time
+
 #include <stdio.h>
 
 #define LIMIT 100
