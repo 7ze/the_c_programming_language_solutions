@@ -10,7 +10,8 @@ int get_line(char line[], int limit);
 void fold_line(char line[], int length, int column_width);
 
 int main(int argc, char *argv[]) {
-    char line[LIMIT], length;
+    char line[LIMIT];
+    int length;
     if (argc != 2) {
         fprintf(stderr, "Usage: %s column_width < somefile\n", argv[0]);
         return 1;
